@@ -1,6 +1,5 @@
 // script.js
-
-// script.js
+// Build a JavaScript Trivia Bot
 
 console.log("Hello! I'm your coding fun fact guide!")
 

@@ -1,4 +1,5 @@
 // script.js
+// Build a Sentence Maker
 
 let adjective = "turquoise";
 let noun = "fish";
