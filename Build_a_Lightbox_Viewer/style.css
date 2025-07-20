@@ -1,0 +1,99 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 14pt;
+}
+
+body {
+    background-color: ghostwhite;
+}
+
+main {
+    margin-top: 50px;
+}
+
+.center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headline-h1 {
+    display: inline-flex;
+    font-size: 2em;
+    font-weight: 600;
+    margin: .2em 1rem;
+    padding: .2em 1rem;
+    background-color: moccasin;
+    border: 2px solid navajowhite;
+    border-radius: 5px;
+}
+
+.gallery {
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.gallery-item {
+    width: 300px;
+    height: 210px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.gallery-item:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: 1s;
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+#lightbox-image {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    border: 2px solid black;
+}
+
+#lightbox-image:hover {
+    cursor: pointer;
+}
+
+#close-btn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+#close-btn:hover {
+    cursor: pointer;
+}
